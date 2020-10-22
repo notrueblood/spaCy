@@ -31,6 +31,15 @@ Create the knowledge base.
 | **RETURNS**             | `KnowledgeBase`  | The newly constructed object.             |
 
 
+## KnowledgeBase.vocab {#vocab tag="property"}
+
+The knowledge base's `Vocab` object. As entities and aliases are added to the knowledge
+base, vocab's underlying `StringStore` is updated.
+
+| Name        | Type | Description             |
+| ----------- | ---- | ----------------------- |
+| **RETURNS** | int  | `Vocab` object.         |
+
 ## KnowledgeBase.entity_vector_length {#entity_vector_length tag="property"}
 
 The length of the fixed-size entity vectors in the knowledge base.
